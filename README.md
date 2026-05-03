@@ -2,6 +2,8 @@
 
 > An open-source, interactive learning platform for mastering AI engineering from Python fundamentals to production-ready agentic systems.
 
+Live preview -> (https://platform-iota-eight.vercel.app/)
+
 ![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646cff?logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss&logoColor=white)
