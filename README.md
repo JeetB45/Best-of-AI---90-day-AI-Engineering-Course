@@ -162,38 +162,6 @@ npm run build
 # output is in platform/dist/
 ```
 
----
-
-## Project Structure
-
-platform/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── LessonPage.jsx      # Main lesson view (Lesson / Practice / Quiz tabs)
-│   │   ├── QuizWidget.jsx      # Interactive quiz with scoring and retry
-│   │   ├── CodeEditor.jsx      # Monaco + Pyodide execution
-│   │   ├── StaticCodeBlock.jsx # Read-only syntax-highlighted blocks
-│   │   └── ...
-│   ├── context/
-│   │   └── AppContext.jsx      # Global progress state (localStorage)
-│   ├── data/
-│   │   ├── index.js            # Combines all phases
-│   │   ├── phase1.js           # Days 1–15 curriculum objects
-│   │   ├── phase2.js           # Days 16–30
-│   │   ├── phase3.js           # Days 31–45
-│   │   ├── phase4.js           # Days 46–60
-│   │   ├── phase5.js           # Days 61–75
-│   │   └── phase6.js           # Days 76–90
-│   └── main.jsx
-├── index.html
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
-
-
----
-
 ## Lesson Data Format
 
 Each day is a JavaScript object:
